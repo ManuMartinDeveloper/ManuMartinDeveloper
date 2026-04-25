@@ -1,0 +1,61 @@
+import urllib.request
+
+# Create a clean, minimal SVG with a dark background and subtle galaxy/star field effect.
+svg_content = """<svg width="1500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:1" />
+    </radialGradient>
+    <style>
+      .star { fill: white; opacity: 0.8; animation: twinkle 3s infinite alternate; }
+      .neuron { stroke: rgba(100, 150, 255, 0.3); stroke-width: 1.5; fill: none; }
+      .node { fill: rgba(100, 150, 255, 0.6); }
+      @keyframes twinkle {
+        0% { opacity: 0.2; }
+        100% { opacity: 0.8; transform: scale(1.1); }
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+
+  <!-- Subtle star field -->
+  <g id="stars">
+    <circle class="star" cx="150" cy="80" r="1.5" />
+    <circle class="star" cx="300" cy="250" r="2" />
+    <circle class="star" cx="500" cy="120" r="1" />
+    <circle class="star" cx="700" cy="300" r="1.5" />
+    <circle class="star" cx="900" cy="150" r="2" />
+    <circle class="star" cx="1100" cy="220" r="1" />
+    <circle class="star" cx="1300" cy="90" r="1.5" />
+    <circle class="star" cx="1400" cy="280" r="2" />
+    <circle class="star" cx="850" cy="50" r="1" />
+    <circle class="star" cx="100" cy="320" r="1.5" />
+  </g>
+
+  <!-- Minimal abstract neural network/constellation lines -->
+  <g class="network">
+    <path class="neuron" d="M150,80 L300,250 L500,120 L700,300 L900,150 L1100,220 L1300,90" />
+    <path class="neuron" d="M300,250 L500,350 L700,300" />
+    <path class="neuron" d="M500,120 L850,50 L900,150" />
+    <path class="neuron" d="M900,150 L1100,100 L1300,90" />
+    <path class="neuron" d="M1100,220 L1400,280 L1300,90" />
+
+    <!-- Nodes -->
+    <circle class="node" cx="150" cy="80" r="3" />
+    <circle class="node" cx="300" cy="250" r="4" />
+    <circle class="node" cx="500" cy="120" r="3.5" />
+    <circle class="node" cx="700" cy="300" r="4" />
+    <circle class="node" cx="900" cy="150" r="5" />
+    <circle class="node" cx="1100" cy="220" r="3" />
+    <circle class="node" cx="1300" cy="90" r="4" />
+    <circle class="node" cx="850" cy="50" r="2" />
+    <circle class="node" cx="500" cy="350" r="3" />
+    <circle class="node" cx="1100" cy="100" r="2.5" />
+    <circle class="node" cx="1400" cy="280" r="3" />
+  </g>
+</svg>"""
+
+with open("banner.svg", "w") as f:
+    f.write(svg_content)

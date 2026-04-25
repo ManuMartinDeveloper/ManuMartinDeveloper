@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1500&auto=format&fit=crop" alt="AI Galaxy Banner" width="100%" style="border-radius: 15px;"/>
+  <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1500&auto=format&fit=crop" alt="AI Minimalist Banner" width="100%" style="border-radius: 15px;"/>
 
   <br/>
   <br/>
