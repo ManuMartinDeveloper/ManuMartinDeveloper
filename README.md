@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7fac04f0fac8b3f10737.gif" alt="AI Minimalist Banner" width="100%" style="border-radius: 15px;"/>
+
+  <br/>
+  <br/>
 
   <h1 align="center">Manu Martin</h1>
   <h3 align="center">AI Technologist & Human-Centric AI Integrator</h3>
