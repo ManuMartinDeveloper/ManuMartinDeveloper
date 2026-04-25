@@ -2,11 +2,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
-    <img src="./assets/banner.svg" alt="AI Neural Galaxy Animation" width="100%" style="border-radius: 15px;"/>
+    <img src="./assets/banner.svg" alt="J.A.R.V.I.S. AI Neural Core" width="100%" style="border-radius: 15px;"/>
   </picture>
 
   <br/>
   <br/>
+
+  <h1 align="center">Manu Martin</h1>
+  <h3 align="center">AI Technologist, Integrator & Vibe Coder</h3>
 
   <p align="center">
     <em>Automating, enhancing human capabilities, and delivering ethical AI solutions through the seamless integration of Data Science, NLP, and Computer Vision.</em>
@@ -23,7 +26,7 @@
 
 ## 🌌 About Me
 
-I am an **AI Integrator** driven by a profound fascination with Artificial Intelligence's capacity to genuinely make a difference. My journey is focused on translating complex data into actionable insights and creating intelligent systems that address real-world challenges.
+I am an **AI Integrator & Vibe Coder** driven by a profound fascination with Artificial Intelligence's capacity to genuinely make a difference. My journey is focused on translating complex data into actionable insights and creating intelligent systems that address real-world challenges.
 
 - 🧩 **Focus:** Combining diverse technologies—like LLMs (Gemini, GPT), LangChain, RAG, Computer Vision, and IoT—into cohesive, impactful solutions.
 - 🎓 **Background:** MSc in Artificial Intelligence and Machine Learning from Christ Deemed To Be University (2023 - 2025).
@@ -71,20 +74,6 @@ I am an **AI Integrator** driven by a profound fascination with Artificial Intel
 
 ---
 
-## 📊 Analytics & Impact
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ManuMartinDeveloper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="ManuMartinDeveloper's GitHub Stats" />
-  <br/>
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ManuMartinDeveloper&theme=tokyonight&hide_border=true&background=0D1117" alt="ManuMartinDeveloper's GitHub Streak" />
-  <br/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManuMartinDeveloper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</div>
-
----
-
 ## 🚀 Featured Integration
 
 ### [Alphonso - Smart Content Filter](https://github.com/ManuMartinDeveloper/alphonso)
@@ -99,4 +88,4 @@ An Android accessibility service utilizing on-device AI to analyze screen conten
 <br/>
 <br/>
 
-<!-- Proudly designed with an AI Integrator mindset -->
+<!-- Proudly designed with an AI Integrator & Vibe Coder mindset -->
